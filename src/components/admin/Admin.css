@@ -1,0 +1,7 @@
+.row-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: blue;
+    margin-top:10px;
+}

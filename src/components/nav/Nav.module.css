@@ -1,0 +1,56 @@
+@media only screen and (min-width: 768px) { 
+    .header {
+        width: 100%;
+        height: 50px;
+        background-color: #340094;
+        padding: 0 10%;
+        text-align: center;
+        position: sticky;
+         top: 0;
+      }
+      .cart{
+        height: 600px;
+        width: 250px;
+        background-color: #bebebe;
+        float: right;
+        overflow: auto;
+      }
+  
+      
+  
+      
+      .header nav {
+        height: 100%;
+      }
+    
+      
+      .header ul {
+        height: 100%;
+        list-style: none;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        
+      }
+      
+      .header li {
+        margin: 0 4rem;
+        width: 5rem;
+        
+      }
+      
+      .header a {
+        color: rgb(187, 187, 255);
+        text-decoration: none;
+      }
+      
+      .header a:hover,
+      .header a:active,
+      .header a.active {
+        color: #000000;
+        padding-bottom: 0.25rem;
+        border-bottom: 4px solid #95bcf0;
+      }
+    }
