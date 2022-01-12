@@ -18,8 +18,7 @@ async addItem(item){
 }
 async deleteItem(id){
     return await axios.delete("http://localhost:9090/admin/deleteItem",
-     {params :{id}},{headers:{'Content-Type':'application/json'}}
-    )
+     {params :{id}},{headers:{'Content-Type':'application/json'}})
+    }
 }
-
 export default new Services();
